@@ -1,4 +1,4 @@
-import { sanityClient } from "../../sanity";
+import sanityClient from "@sanity/client";
 
 const config = {
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,
